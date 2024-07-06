@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CodeGT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="/">
+                <img src="./assets/img/CODEGT.png" alt="CODEGT" width="150px">
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cursos">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nuestros-programas">Programas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contactanos">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div>
+                        <a class="text-dark" href="https://www.facebook.com/PrograGuate" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                        <a class="text-dark" href="https://www.instagram.com/tech.codegt/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                        <a class="text-dark" href="https://wa.me/50243564857" target="_blank"><i class="fab fa-whatsapp fa-sm fa-fw me-2"></i></a>
+                        <a class="text-dark" href="https://www.linkedin.com/company/codegt-dev/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+     
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-info navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 justify-content-between text-center">
+                <div class="text-center">
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="https://wa.me/50243564857" target="_blank">
+                        ¿Quieres aprender a programar o tienes dudas sobre nuestros cursos? Contáctanos
+                        <i class="fab fa-whatsapp fa-sm fa-fw"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Start Banner Hero -->
+     <div class="banner-codegt">
+        <div class="banner-codegt-info">
+            <div class="banner-codegt-title">
+                <p class="banner-codegt-title-init">
+                    ¡Aprende a Programar!
+                </p>
+                <p class="banner-codegt-title-desc">
+                    ¡Únete a CODEGT para aprender nuevas habilidades en desarrollo de software y tecnología de la información e 
+                    impactar positivamente en el mundo digital! Infinitas posibilidades, creatividad sin límites.
+                </p>
+            </div>
+            <div class="banner-codegt-buttons">
+                <div class="button-courses" onclick="location.href='#cursos';">
+                    <p>
+                        Explorar cursos
+                    </p>
+                </div>
+                <div class="button-courses" onclick="location.href='#nuestros-programas';">
+                    <p>
+                        Explorar programas
+                    </p>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- End Banner Hero -->
+    
+    <!-- Start About -->
+    <div id="nosotros" class="carousel slide" data-bs-ride="carousel">
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Academia de Software</h1>
+                <p>
+                    Somos una academia de tecnología y desarrollo de software que te enseña programación 
+                    de manera innovadora. Contamos con una amplia gama de cursos y programas diseñados para 
+                    todos los niveles, desde principiantes hasta expertos. Descubre cómo nuestra metodología 
+                    única y nuestras herramientas de vanguardia te ayudarán a adquirir habilidades sólidas en 
+                    programación e impulsar tu carrera hacia nuevas alturas.
+                    Te invitamos a explorar nuestro mundo del código. ¡Comienza tu viaje hacia el lenguaje 
+                    de la era digital!
+                </p>
+            </div>
+        </div>
+        <ol class="carousel-indicators">
+            <li data-bs-target="#nosotros" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#nosotros" data-bs-slide-to="1"></li>
+            <li data-bs-target="#nosotros" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-lg-9 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/Programa.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-lg-9 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/Programa_1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-lg-9 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/Programa_2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev text-decoration-none w-auto ps-5" href="#nosotros" role="button" data-bs-slide="prev">
+                <i class="fas fa-chevron-left"></i>
+            </a>
+            <a class="carousel-control-next text-decoration-none w-auto pe-5" href="#nosotros" role="button" data-bs-slide="next">
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Start Cars Cursos -->
+    <section id="cursos" class="">
+        <div class="container py-5">
+            <div class="row text-center py-3">
+                <div class="m-auto">
+                    <p>
+                        DESCUBRE TU POTENCIAL
+                    </p>
+                    <h1 class="h2">CURSOS DE PROGRAMACIÓN Y TECNOLOGÍA</h1>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body card-cursos">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <a href="shop-single.html">
+                                        <img src="./assets/img/icon_c.png" class="card-img-top" alt="...">
+                                    </a>
+                                </li>
+                            </ul>
+                            <h1 class="h1-card2">Introducción a C# .NET Core</h1>
+                            <p class="card-text">
+                                Descripción del Curso. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Proin malesuada rutrum ligula molestie pharetra.
+                            </p>
+                            <br>
+                            <ul class="list-unstyled d-flex justify-content-around ">
+                                <li>
+                                    <i class="text-right">Modalidad:</i>
+                                </li>
+                                <li class="text-muted text-right">Virtual</li>
+                            </ul>
+                            <ul class="list-unstyled d-flex justify-content-around">
+                                <li>
+                                    <i class="text-right">Duración:</i>
+                                </li>
+                                <li class="text-muted text-right">2 Meses</li>
+                            </ul>
+                            <div class="banner-codegt-buttons-cursos btn-cards">
+                                <div class="button-inscribtete-programas btns-card-cursos">
+                                    <p>
+                                        ¡Inscríbete aquí!
+                                    </p>
+                                </div>
+                                <div class="button-info-programas btns-card-cursos" onclick='window.open("https://wa.me/50243564857", "_blank");'>
+                                    <p>
+                                        <i class="fab fa-whatsapp fa-sm fa-fw me-2"></i>
+                                        Solicita más información
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tag-curso bg-warning">
+                            nuevo
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body card-cursos">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <a href="shop-single.html">
+                                        <img src="./assets/img/iconoNET.png" class="card-img-top" alt="...">
+                                    </a>
+                                </li>
+                            </ul>
+                            <h1 class="h1-card2">API REST en .NET Core</h1>
+                            <p class="card-text">
+                                Descripción del Curso. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Proin malesuada rutrum ligula molestie pharetra.
+                            </p>
+                            <br>
+                            <ul class="list-unstyled d-flex justify-content-around ">
+                                <li>
+                                    <i class="text-right">Modalidad:</i>
+                                </li>
+                                <li class="text-muted text-right">Virtual</li>
+                            </ul>
+                            <ul class="list-unstyled d-flex justify-content-around">
+                                <li>
+                                    <i class="text-right">Duración:</i>
+                                </li>
+                                <li class="text-muted text-right">2 Meses</li>
+                            </ul>
+                            <div class="banner-codegt-buttons-cursos btn-cards">
+                                <div class="button-inscribtete-programas btns-card-cursos" onclick="location.href='#Contactanos';">
+                                    <p>
+                                        ¡Inscríbete aquí!
+                                    </p>
+                                </div>
+                                <div class="button-info-programas btns-card-cursos" onclick='window.open("https://wa.me/50243564857", "_blank");'>
+                                    <p>
+                                        <i class="fab fa-whatsapp fa-sm fa-fw me-2"></i>
+                                        Solicita más información
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tag-curso bg-warning">
+                            nuevo
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body card-cursos">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <a href="shop-single.html">
+                                        <img src="./assets/img/SQL.png" class="card-img-top" alt="...">
+                                    </a>
+                                </li>
+                            </ul>
+                            <h1 class="h1-card2">Bases de Datos con SQL Server</h1>
+                            <p class="card-text">
+                                Descripción del Curso. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Proin malesuada rutrum ligula molestie pharetra.
+                            </p>
+                            <br>
+                            <ul class="list-unstyled d-flex justify-content-around ">
+                                <li>
+                                    <i class="text-right">Modalidad:</i>
+                                </li>
+                                <li class="text-muted text-right">Virtual</li>
+                            </ul>
+                            <ul class="list-unstyled d-flex justify-content-around">
+                                <li>
+                                    <i class="text-right">Duración:</i>
+                                </li>
+                                <li class="text-muted text-right">2 Meses</li>
+                            </ul>
+                            <div class="banner-codegt-buttons-cursos btn-cards">
+                                <div class="button-inscribtete-programas btns-card-cursos" onclick="location.href='#Contactanos';">
+                                    <p>
+                                        ¡Inscríbete aquí!
+                                    </p>
+                                </div>
+                                <div class="button-info-programas btns-card-cursos" onclick='window.open("https://wa.me/50243564857", "_blank");'>
+                                    <p>
+                                        <i class="fab fa-whatsapp fa-sm fa-fw me-2"></i>
+                                        Solicita más información
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body card-cursos">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <a href="shop-single.html">
+                                        <img src="./assets/img/Docker.png" class="card-img-top" alt="...">
+                                    </a>
+                                </li>
+                            </ul>
+                            <h1 class="h1-card2">Fundamentos de DOCKER</h1>
+                            <p class="card-text">
+                                Descripción del Curso. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Proin malesuada rutrum ligula molestie pharetra.
+                            </p>
+                            <br>
+                            <ul class="list-unstyled d-flex justify-content-around ">
+                                <li>
+                                    <i class="text-right">Modalidad:</i>
+                                </li>
+                                <li class="text-muted text-right">Virtual</li>
+                            </ul>
+                            <ul class="list-unstyled d-flex justify-content-around">
+                                <li>
+                                    <i class="text-right">Duración:</i>
+                                </li>
+                                <li class="text-muted text-right">2 Meses</li>
+                            </ul>
+                            <div class="banner-codegt-buttons-cursos btn-cards">
+                                <div class="button-inscribtete-programas btns-card-cursos" onclick="location.href='#Contactanos';">
+                                    <p>
+                                        ¡Inscríbete aquí!
+                                    </p>
+                                </div>
+                                <div class="button-info-programas btns-card-cursos" onclick='window.open("https://wa.me/50243564857", "_blank");'>
+                                    <p>
+                                        <i class="fab fa-whatsapp fa-sm fa-fw me-2"></i>
+                                        Solicita más información
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body card-cursos">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <a href="shop-single.html">
+                                        <img src="./assets/img/computer.png" class="card-img-top" alt="...">
+                                    </a>
+                                </li>
+                            </ul>
+                            <h1 class="h1-card2">Fundamentos de QA</h1>
+                            <p class="card-text">
+                                Descripción del Curso. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Proin malesuada rutrum ligula molestie pharetra.
+                            </p>
+                            <br>
+                            <ul class="list-unstyled d-flex justify-content-around ">
+                                <li>
+                                    <i class="text-right">Modalidad:</i>
+                                </li>
+                                <li class="text-muted text-right">Virtual</li>
+                            </ul>
+                            <ul class="list-unstyled d-flex justify-content-around">
+                                <li>
+                                    <i class="text-right">Duración:</i>
+                                </li>
+                                <li class="text-muted text-right">2 Meses</li>
+                            </ul>
+                            <div class="banner-codegt-buttons-cursos btn-cards">
+                                <div class="button-inscribtete-programas btns-card-cursos" onclick="location.href='#Contactanos';">
+                                    <p>
+                                        ¡Inscríbete aquí!
+                                    </p>
+                                </div>
+                                <div class="button-info-programas btns-card-cursos" onclick='window.open("https://wa.me/50243564857", "_blank");'>
+                                    <p>
+                                        <i class="fab fa-whatsapp fa-sm fa-fw me-2"></i>
+                                        Solicita más información
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body card-cursos">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <a href="shop-single.html">
+                                        <img src="./assets/img/HTML.png" class="card-img-top" alt="...">
+                                    </a>
+                                </li>
+                            </ul>
+                            <h1 class="h1-card2">Aprende HTML, CSS y JavaScript</h1>
+                            <p class="card-text">
+                                Descripción del Curso. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Proin malesuada rutrum ligula molestie pharetra.
+                            </p>
+                            <br>
+                            <ul class="list-unstyled d-flex justify-content-around ">
+                                <li>
+                                    <i class="text-right">Modalidad:</i>
+                                </li>
+                                <li class="text-muted text-right">Virtual</li>
+                            </ul>
+                            <ul class="list-unstyled d-flex justify-content-around">
+                                <li>
+                                    <i class="text-right">Duración:</i>
+                                </li>
+                                <li class="text-muted text-right">2 Meses</li>
+                            </ul>
+                            <div class="banner-codegt-buttons-cursos btn-cards">
+                                <div class="button-inscribtete-programas btns-card-cursos" onclick="location.href='#Contactanos';">
+                                    <p>
+                                        ¡Inscríbete aquí!
+                                    </p>
+                                </div>
+                                <div class="button-info-programas btns-card-cursos" onclick='window.open("https://wa.me/50243564857", "_blank");'>
+                                    <p>
+                                        <i class="fab fa-whatsapp fa-sm fa-fw me-2"></i>
+                                        Solicita más información
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body card-cursos">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <a href="shop-single.html">
+                                        <img src="./assets/img/PowerBI.png" class="card-img-top" alt="...">
+                                    </a>
+                                </li>
+                            </ul>
+                            <h1 class="h1-card2">Introducción a Power BI</h1>
+                            <p class="card-text">
+                                Descripción del Curso. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Proin malesuada rutrum ligula molestie pharetra.
+                            </p>
+                            <br>
+                            <ul class="list-unstyled d-flex justify-content-around ">
+                                <li>
+                                    <i class="text-right">Modalidad:</i>
+                                </li>
+                                <li class="text-muted text-right">Virtual</li>
+                            </ul>
+                            <ul class="list-unstyled d-flex justify-content-around">
+                                <li>
+                                    <i class="text-right">Duración:</i>
+                                </li>
+                                <li class="text-muted text-right">2 Meses</li>
+                            </ul>
+                            <div class="banner-codegt-buttons-cursos btn-cards">
+                                <div class="button-inscribtete-programas btns-card-cursos" onclick="location.href='#Contactanos';">
+                                    <p>
+                                        ¡Inscríbete aquí!
+                                    </p>
+                                </div>
+                                <div class="button-info-programas btns-card-cursos" onclick='window.open("https://wa.me/50243564857", "_blank");'>
+                                    <p>
+                                        <i class="fab fa-whatsapp fa-sm fa-fw me-2"></i>
+                                        Solicita más información
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Cards Cursos -->
+
+    <!-- Start Socios -->
+    <section class=" bg-light" style="display: flex; justify-content: center;align-items: center;flex-direction: column;">
+        <div class="row text-center pt-3">
+            <div class="col-lg-9 m-auto" style="display: ruby;">
+                <p>
+                    CONFIANDO EN NUESTROS
+                </p>
+                <h1 class="h1">SOCIOS ESTRATEGICOS</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 p-5 mt-3 text-center">
+                <a href="#"><img src="./assets/img/socio1.png" class="rounded-circle img-fluid border"></a>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3 text-center">
+                <a href="#"><img src="./assets/img/socio2.png" class="rounded-circle img-fluid border"></a>
+            </div>
+            <div class="col-12 col-md-4  p-5 mt-3 text-center">
+                <a href="#"><img src="./assets/img/socio3.png" class="rounded-circle img-fluid border"></a>
+            </div>
+        </div>
+    </section>
+    <!-- End Socios -->
+
+    <!-- Start Programas -->
+    <div id="nuestros-programas" class="carousel slide bg-white" data-bs-ride="carousel">
+        <div class="row text-center pt-3 bg-white title-programas">
+            <div class="col-lg-9 m-auto" style="display: ruby;">
+                <h1 class="h1">NUESTROS PROGRAMAS</h1>
+            </div>
+        </div>
+        <div class="carousel-inner bg-white bg-carousel-programas">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="tag bg-blue">
+                        Disponible
+                    </div>
+                    <div class="row p-5 card-programa">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last img-card-programa">
+                            <img class="img-fluid" src="./assets/img/DesarrolladorBackend.png" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1-card">Desarrollador Backend</h1>
+                                <p>
+                                    Este programa te introducirá en el desarrollo de aplicaciones web, ofreciéndote cursos 
+                                    especializados que te llevarán desde los fundamentos de C# .NET Core hasta el diseño y 
+                                    la implementación de APIs REST utilizando .NET Core. Además, explorarás los aspectos 
+                                    esenciales de la gestión de bases de datos con SQL Server, adquiriendo las habilidades 
+                                    necesarias para crear sistemas robustos y escalables. 
+                                </p>
+                                <p>
+                                    Prepárate para explotar tu potencial y convertirte en un experto en el desarrollo backend.
+                                </p>
+                                <div class="banner-codegt-buttons btn-cards">
+                                    <div class="button-inscribtete-programas" onclick="location.href='#Contactanos';">
+                                        <p>
+                                            ¡Inscríbete aquí!
+                                        </p>
+                                    </div>
+                                    <div class="button-info-programas">
+                                        <p>
+                                            Más información
+                                            <i class="fas fa-arrow-right"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="tag bg-success">
+                        Proximamente
+                    </div>
+                    <div class="row p-5 card-programa">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last img-card-programa">
+                            <img class="img-fluid" src="./assets/img/DevOps.png" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1-card">DevOps</h1>
+                                <p>
+                                    A lo largo de este programa aprenderás los fundamentos de DevOps, construcción de aplicaciones 
+                                    con Docker y el uso de herramientas como Jenkins y Git para gestionar eficientemente el 
+                                    ciclo de vida del desarrollo de software. Además, aprenderás a automatizar procesos de 
+                                    despliegue para garantizar una entrega rápida y confiable de tus aplicaciones.
+                                </p>
+                                <p>
+                                    Adquirirás las habilidades necesarias para mejorar la colaboración entre equipos de desarrollo 
+                                    y operaciones, para impulsar la eficiencia y la calidad en tus proyectos de software.
+                                </p>
+                                <div class="banner-codegt-buttons btn-cards">
+                                    <div class="button-inscribtete-programas" onclick="location.href='#Contactanos';">
+                                        <p>
+                                            ¡Inscríbete aquí!
+                                        </p>
+                                    </div>
+                                    <div class="button-info-programas">
+                                        <p>
+                                            Más información
+                                            <i class="fas fa-arrow-right"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="tag bg-success">
+                        Proximamente
+                    </div>
+                    <div class="row p-5 card-programa">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last img-card-programa">
+                            <img class="img-fluid" src="./assets/img/CalidadSoftware.png" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1-card">Calidad de Software y Automatización de Pruebas</h1>
+                                <p>
+                                    Este programa está diseñado para aquellos que buscan dominar las mejores prácticas en 
+                                    aseguramiento de la calidad y pruebas de software. A través de cursos especializados 
+                                    como "Fundamentos de ISTQB", "Calidad de Software" y "Automatización de pruebas con OpenTest", 
+                                    adquirirás los conocimientos y habilidades necesarias para garantizar la excelencia en 
+                                    el desarrollo de software.
+                                </p>
+                                <p>
+                                    Convertirte en un profesional altamente calificado en el área de pruebas de software y 
+                                    contribuir al desarrollo de productos de alta calidad.
+                                </p>
+                                <div class="banner-codegt-buttons btn-cards">
+                                    <div class="button-inscribtete-programas" onclick="location.href='#Contactanos';">
+                                        <p>
+                                            ¡Inscríbete aquí!
+                                        </p>
+                                    </div>
+                                    <div class="button-info-programas">
+                                        <p>
+                                            Más información
+                                            <i class="fas fa-arrow-right"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="tag bg-success">
+                        Proximamente
+                    </div>
+                    <div class="row p-5 card-programa">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last img-card-programa">
+                            <img class="img-fluid" src="./assets/img/DesarrolladorFrontend.png" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1-card">Desarrollador FrontEnd</h1>
+                                <p>
+                                    A través de este programa, aprenderás sobre el desarrollo de interfaces de usuario, 
+                                    con cursos especializados para aprender a programar utilizando React e Integración 
+                                    de Microservicios. Adquirirás las habilidades y conocimientos necesarios para crear 
+                                    experiencias de usuario dinámicas y eficientes. 
+                                </p>
+                                <p>
+                                    Domina las últimas tecnologías en desarrollo web y convertirte en un experto en la 
+                                    creación de interfaces interactivas y responsivas que impulsen el éxito de tus 
+                                    proyectos digitales.
+                                </p>
+                                <div class="banner-codegt-buttons btn-cards">
+                                    <div class="button-inscribtete-programas" onclick="location.href='#Contactanos';">
+                                        <p>
+                                            ¡Inscríbete aquí!
+                                        </p>
+                                    </div>
+                                    <div class="button-info-programas">
+                                        <p>
+                                            Más información
+                                            <i class="fas fa-arrow-right"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="tag bg-success">
+                        Proximamente
+                    </div>
+                    <div class="row p-5 card-programa">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last img-card-programa">
+                            <img class="img-fluid" src="./assets/img/InteligenciaNegocios.png" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1-card">Inteligencia de Negocios</h1>
+                                <p>
+                                    La capacitación de introducción al Business Intelligence le sumerge en el fascinante 
+                                    mundo del análisis de datos, ya sea como persona o como parte de una empresa. A través 
+                                    de casos prácticos y una base teórica sólida, le orientamos cómo convertir datos en 
+                                    información estratégica, capacitándote para tomar decisiones informadas que impulsen 
+                                    tanto tu crecimiento personal como el éxito empresarial a largo plazo.
+                                </p>
+                                <div class="banner-codegt-buttons btn-cards">
+                                    <div class="button-inscribtete-programas" onclick="location.href='#Contactanos';">
+                                        <p>
+                                            ¡Inscríbete aquí!
+                                        </p>
+                                    </div>
+                                    <div class="button-info-programas">
+                                        <p>
+                                            Más información
+                                            <i class="fas fa-arrow-right"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#nuestros-programas" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#nuestros-programas" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Programas -->
+
+    <!-- Start Profesores -->
+    <div id="template-profesores-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner bg-carousel-profesores">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 center-img-profesor">
+                            <img class="img-fluid rounded-circle" src="./assets/img/HectorMelgar.jpg" alt="" width="250px">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center order-lg-last">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h5">Profesor</h1>
+                                <h3 class="h1-card">Ing. Héctor Melgar</h3>
+                                <p>
+                                    Soy un profesional en tecnología y desarrollo de software con más de 17 años de experiencia, 
+                                    egresado de la Universidad de San Carlos de Guatemala, durante mi trayectoria he participado 
+                                    en proyectos para las instituciones financieras más importantes del país, hasta el desarrollo 
+                                    de plataformas de servicios financieros en regiones como México y Centroamérica.
+                                </p>
+                                <p>
+                                    Desde mis inicios en desarrollo de software he trabajado con tecnologías microsoft y lenguajes 
+                                    de programación C# y Visual Basic, me apasiona el uso de estas tecnologías no solamente en 
+                                    desarrollo de software sino en automatización y plataformas de colaboración.
+                                </p>
+                                <p>
+                                    Estoy a cargo de impartir los cursos de Introducción a la programación en C# .NET Core, API REST 
+                                    C# .NET Core e Introducción a base de datos en SQL Server.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 center-img-profesor">
+                            <img class="img-fluid rounded-circle" src="./assets/img/JuanAlvarado.jpg" alt="" width="250px">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center order-lg-last">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h5">Profesor</h1>
+                                <h3 class="h1-card">Juan Alvarado</h3>
+                                <p>
+                                    Soy un desarrollador frontend con amplia experiencia en el diseño, desarrollo y migración 
+                                    de aplicaciones web utilizando tecnologías avanzadas y metodologías ágiles. He liderado 
+                                    proyectos complejos y asegurado la calidad y el rendimiento del software en diversos entornos 
+                                    de alta demanda.
+                                </p>
+                                <p>
+                                    Desde mis inicios en el desarrollo de software, he centrado mi carrera en el mundo del frontend. 
+                                    Tengo experiencia trabajando con tecnologías como React y Angular, y poseo un conocimiento profundo 
+                                    en JavaScript. Me apasiona el desarrollo frontend y disfruto creando interfaces dinámicas y atractivas.
+                                </p>
+                                <p>
+                                    Estoy a cargo de impartir los curso: Aprende HTML, CSS y JavaScript desde 0 hasta avanzado.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-profesores-carousel" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-profesores-carousel" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Profesores -->
+     
+    <!-- Start Testimonios -->
+    <div id="template-testimonios-carousel" class="carousel slide bg-white testiomnios-no-responsive" data-bs-ride="carousel">
+        <div class="row text-center pt-3 bg-white title-testimonios">
+            <div class="col-lg-9 m-auto" style="display: ruby;">
+                <h1 class="h1">TESTIMONIOS</h1>
+            </div>
+        </div>
+        <div class="carousel-inner bg-white bg-carousel-testimonios">
+            <div class="carousel-item active">
+                <div class="container container-testimonios">
+                    <div class="row p-5 card-programa item-testimonio">
+                        <div class="mb-0 d-flex ">
+                            <div class="text-align-left ">
+                                <h1 class="h1-card">Ana Díaz</h1>
+                                <p>
+                                    Hola buenas tardes Soy Ana Díaz de CodeGT, es muy buena la academia me gusto mucho, enseñan 
+                                    bastante, me alegro mucho de haber tenido esta gran oportunidad de haber estudiado programación 
+                                </p>
+                                <p>
+                                    Los profesores y auxiliares de cátedra nos motivan mucho y cuando tenemos dudas nos apoyan 
+                                    a resolverlas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p-5 card-programa item-testimonio">
+                        <div class="mb-0 d-flex ">
+                            <div class="text-align-left ">
+                                <h1 class="h1-card">Jose Ortiz</h1>
+                                <p>
+                                    Me gustó mucho el curso de introducción de c#, fue un curso muy dinámico, los horarios 
+                                    también bastante accesibles, fue un muy buen curso, también se le agradece al profesor 
+                                    y auxiliar de cátedra por habernos enseñado y compartido su conocimiento sobre c# ya que 
+                                    siempre nos sacaban de dudas, prácticamente nos enseñaban de una muy buena manera muchas 
+                                    gracias por todo lo que nos enseñaron en el curso de introducción a c#.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="container container-testimonios">
+                    <div class="row p-5 card-programa item-testimonio">
+                        <div class="mb-0 d-flex ">
+                            <div class="text-align-left ">
+                                <h1 class="h1-card">Antonio Veliz</h1>
+                                <p>
+                                    Excelente atención y forma de enseñar, tienen bastante material de apoyo y la forma de 
+                                    explicar hace que sea más fácil aprender, excelente academia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p-5 card-programa item-testimonio">
+                        <div class="mb-0 d-flex ">
+                            <div class="text-align-left ">
+                                <h1 class="h1-card">Victor Cortez</h1>
+                                <p>
+                                    Me parece excelente el curso y contenido que ofrece la academia, porqué cubre los temas 
+                                    necesarios para la introducción a la programación, además los contenidos se van fortalecimiento 
+                                    con laboratorios para que el estudiante repase su aprendizaje y lógica. Invitó a las personas 
+                                    apasionadas a la tecnología a tomar cursos en la academia porqué ofrece varios cursos buenísimos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-testimonios-carousel" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-testimonios-carousel" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Testimonios -->
+     
+    <!-- Start Testimonios Responsive -->
+    <div id="template-testimonios-carousel-responsive" class="carousel slide bg-white testimonios-responsive" data-bs-ride="carousel">
+        <div class="row text-center pt-3 bg-white title-programas">
+            <div class="col-lg-9 m-auto" style="display: ruby;">
+                <h1 class="h1">TESTIMONIOS</h1>
+            </div>
+        </div>
+        <div class="carousel-inner bg-white bg-carousel-testimonios">
+            <div class="carousel-item active">
+                <div class="container container-testimonios">
+                    <div class="row p-5 card-programa">
+                        <div class="mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1-card">Ana Díaz</h1>
+                                <p>
+                                    Hola buenas tardes Soy Ana Díaz de CodeGT, es muy buena la academia me gusto mucho, enseñan 
+                                    bastante, me alegro mucho de haber tenido esta gran oportunidad de haber estudiado programación 
+                                </p>
+                                <p>
+                                    Los profesores y auxiliares de cátedra nos motivan mucho y cuando tenemos dudas nos apoyan 
+                                    a resolverlas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="container container-testimonios">
+                    <div class="row p-5 card-programa">
+                        <div class="mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1-card">Jose Ortiz</h1>
+                                <p>
+                                    Me gustó mucho el curso de introducción de c#, fue un curso muy dinámico, los horarios 
+                                    también bastante accesibles, fue un muy buen curso, también se le agradece al profesor 
+                                    y auxiliar de cátedra por habernos enseñado y compartido su conocimiento sobre c# ya que 
+                                    siempre nos sacaban de dudas, prácticamente nos enseñaban de una muy buena manera muchas 
+                                    gracias por todo lo que nos enseñaron en el curso de introducción a c#.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="container container-testimonios">
+                    <div class="row p-5 card-programa">
+                        <div class="mb-0 d-flex ">
+                            <div class="text-align-left ">
+                                <h1 class="h1-card">Antonio Veliz</h1>
+                                <p>
+                                    Excelente atención y forma de enseñar, tienen bastante material de apoyo y la forma de 
+                                    explicar hace que sea más fácil aprender, excelente academia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="container container-testimonios">
+                    <div class="row p-5 card-programa">
+                        <div class="mb-0 d-flex ">
+                            <div class="text-align-left ">
+                                <h1 class="h1-card">Victor Cortez</h1>
+                                <p>
+                                    Me parece excelente el curso y contenido que ofrece la academia, porqué cubre los temas 
+                                    necesarios para la introducción a la programación, además los contenidos se van fortalecimiento 
+                                    con laboratorios para que el estudiante repase su aprendizaje y lógica. Invitó a las personas 
+                                    apasionadas a la tecnología a tomar cursos en la academia porqué ofrece varios cursos buenísimos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-testimonios-carousel-responsive" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-testimonios-carousel-responsive" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Testimonios Responsive -->
+    
+    <!-- Start Formulario Contactanos -->
+    <section id="Contactanos" class="">
+        <div class="container py-5">
+            <div class="row text-center py-3">
+                <div class=" m-auto">
+                    <p>
+                        ¿TIENES DUDAS?
+                    </p>
+                    <h1 class="h1">CONTÁCTANOS</h1>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-12 col-md-6 mb-4">
+                    <div class="card-contactanos">
+                        <div class="">
+                            <h1 class="h1-card text-uppercase">Solicita más información</h1>
+                            <p class="card-text">
+                                Si tienes alguna duda o estás interesado en alguno de nuestros 
+                                cursos o programas, envíanos un mensaje y nos contactaremos 
+                                contigo para ayudarte.
+                            </p>
+                            <p>
+                                <h4>¡Te brindaremos cualquier información que necesites!</h4>
+                            </p>
+                            <br>
+                            <br>
+                            <div class="col-auto">
+                                <h4>Nuestro contacto</h4>
+                                <ul class="list-unstyled footer-link-list">
+                                    <li><a class="text-decoration-none text-dark" href="https://wa.me/50243564857"><i class="fab fa-whatsapp fa-sm fa-fw me-2"></i>(+502) 4356 4857</a></li>
+                                    <li><a class="text-decoration-none text-dark" href="mailto:codegt502@gmail.com"><i class="fa fa-envelope fa-sm fa-fw me-2" aria-hidden="true"></i>codegt502@gmail.com</a></li>
+                                    <li><a class="text-decoration-none text-dark" href="https://maps.app.goo.gl/2yqq2royPrLtUvHq7" target="_blank"><i class="fab fas fa-map-marker-alt fa-sm fa-fw me-2"></i>Vía 4 1-00 zona 4 Edificio Tec Torre 2 Nivel 4 oficina 401</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body bg-light">
+                            <div class="form-group mb-3">
+                                <label for="inputname">Tu nombre</label>
+                                <div class="input-container">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="¿A qué te dedicas?" onchange="CleanError('name');">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6 mb-3">
+                                    <label for="inputname">Ocupación</label>
+                                    <div class="input-container">
+                                        <i class="fas fa-building"></i>
+                                        <input type="text" class="form-control mt-1" id="ocupation" name="ocupation" placeholder="¿A qué te dedicas?" onchange="CleanError('ocupation');">
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6 mb-3">
+                                    <label for="inputemail">Teléfono</label>
+                                    <div class="input-container">
+                                        <i class="fas fa-phone"></i>
+                                        <input type="number" class="form-control mt-1" id="phone" name="phone" placeholder="Número de teléfono" onchange="CleanError('phone');">
+                                    </div>
+                                </div>
+                                <div class="form-group  mb-3">
+                                    <label for="inputname">Correo Electrónico</label>
+                                    <div class="input-container">
+                                        <i class="fas fa-envelope"></i>
+                                        <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Correo electrónico" onchange="CleanError('email');">
+                                    </div>
+                                </div>
+                                <div class="form-group  mb-3">
+                                    <label for="inputname">Curso</label>
+                                    <div class="combobox-container">
+                                        <i class="fas fa-book"></i>
+                                        <select class="combobox" id="course" name="course" placeholder="¿Qué curso que te interesa?" onchange="CleanError('course');">
+                                            <option value="" selected disabled>¿Qué curso te interesa?</option>
+                                            <option value="Introducción a C# .NET Core">Introducción a C# .NET Core</option>
+                                            <option value="API REST en .NET Core">API REST en .NET Core</option>
+                                            <option value="Bases de Datos con SQL Server">Bases de Datos con SQL Server</option>
+                                            <option value="Fundamentos de DOCKER">Fundamentos de DOCKER</option>
+                                            <option value="opciFundamentos de QAon2">Fundamentos de QA</option>
+                                            <option value="Aprende HTML, CSS y JavaScript">Aprende HTML, CSS y JavaScript</option>
+                                            <option value="Introducción a Power BI">Introducción a Power BI</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="inputmessage">Déjanos un mensaje</label>
+                                    <div class="input-container">
+                                        <i class="fas fa-comment icon-textarea"></i>
+                                        <textarea class="form-control mt-1" id="message" name="message" placeholder="Describe que te gustaría saber" rows="5" onchange="CleanError('message');"></textarea>
+                                    </div>
+                                </div>
+                                <div class="container-recaptcha">
+                                    <div class="g-recaptcha" data-sitekey="6Lf08AgqAAAAALFHXF5KkYOOsbqast4rHhOi_101"></div>
+                                </div>
+                                <div class="banner-codegt-buttons-cursos btn-cards">
+                                    <div class="button-inscribtete-programas btns-card-contactanos" onclick="SendForm();">
+                                        <p>
+                                            Enviar
+                                            <i class="fas fa-arrow-right"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Formulario Contactanos -->
+
+    <!-- Start Footer -->
+    <footer class="bg-black" id="tempaltemo_footer">
+        <div class="row text-light mb-4">
+            <div class="row text-light mb-4 space-columns">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto">
+                    <div class="container">
+                        <div class="row pt-2">
+                            <div class="col-12">
+                                <a class="navbar-brand text-success logo h1 align-self-center" href="/">
+                                    <img src="./assets/img/CODEGT _white.png" alt="CODEGT" width="250px">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Contacto</h2>
+                    <ul class="list-unstyled text-muted footer-link-list">
+                        <li><a class="text-decoration-none" href="https://wa.me/50243564857"><i class="fab fa-whatsapp fa-sm fa-fw me-2"></i>(+502) 4356 4857</a></li>
+                        <li><a class="text-decoration-none" href="mailto:codegt502@gmail.com"><i class="fa fa-envelope fa-sm fa-fw me-2" aria-hidden="true"></i>codegt502@gmail.com</a></li>
+                        <li><a class="text-decoration-none" href="https://maps.app.goo.gl/2yqq2royPrLtUvHq7" target="_blank"><i class="fab fas fa-map-marker-alt fa-sm fa-fw me-2"></i>Vía 4 1-00 zona 4 Edificio Tec Torre 2 Nivel 4 oficina 401</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row text-muted mb-4 space-columns">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <div class="container">
+                        <div class="row pt-2">
+                            <div class="col-12">
+                                <p class="text-left text-muted">
+                                    Copyright &copy; © 2022 CODEGT. 2024. Todos los derechos reservados.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <label class="sr-only" for="subscribeEmail">Email address</label>
+                    <div class="input-group mb-2">
+                        <p class="text-muted">
+                            Designed by IT Profis
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Start Script -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function isValidEmail(email) {
+            // Expresión regular para validar correo electrónico
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailPattern.test(email);
+        }
+        
+        function SendForm(){
+            var recaptchaResponse = grecaptcha.getResponse();
+            let Nombre = document.getElementById("name");
+            let Ocupacion = document.getElementById("ocupation");
+            let Telefono = document.getElementById("phone");
+            let Correo = document.getElementById("email");
+            let Curso = document.getElementById("course");
+            let Mensaje = document.getElementById("message");
+
+            if (recaptchaResponse.length === 0) {
+                Swal.fire({
+                    title: "Verifica que no eres un robot!",
+                    icon: "error"
+                });
+                return;
+            }
+
+            let NombreValido = Nombre.value.length > 5?
+                    true
+                :   
+                    Nombre.classList.add('error')
+            ;
+            let OcupacionValida = Ocupacion.value.length > 5?
+                    true
+                :   
+                    Ocupacion.classList.add('error')
+            ;
+            let TelefonoValido = Telefono.value.length == 8?
+                    true
+                :   
+                    Telefono.classList.add('error')
+            ;
+            let CorreoValido = Correo.value.length > 5 && isValidEmail(Correo.value)?
+                    true
+                :   
+                    Correo.classList.add('error')
+            ;
+            let CursoValido = Curso.value.length > 5?
+                    true
+                :   
+                    Curso.classList.add('error')
+            ;
+            let MensajeValido = Mensaje.value.length > 10?
+                    true
+                :   
+                    Mensaje.classList.add('error')
+            ;
+
+
+            if(NombreValido && OcupacionValida && TelefonoValido && CorreoValido && CursoValido && MensajeValido){
+
+                Swal.fire({
+                    title: "Enviando mensaje!",
+                    html: "En proceso...",
+                    timerProgressBar: true,
+                    didOpen: () => {
+                        Swal.showLoading();
+                        const timer = Swal.getPopup().querySelector("b");
+                        timerInterval = setInterval(() => {
+                        timer.textContent = `${Swal.getTimerLeft()}`;
+                        }, 100);
+                    },
+                    willClose: () => {
+                        clearInterval(timerInterval);
+                    }
+                });
+
+                fetch("https://formsubmit.co/ajax/fa6c6bbc3064407dfe2f1c15c0f2e8f0 ", {
+                    method: "POST",
+                    headers: { 
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        Nombre: Nombre.value,
+                        Ocupacion: Ocupacion.value,
+                        Telefono: Telefono.value,
+                        Correo: Correo.value,
+                        Curso: Curso.value,
+                        Mensaje: Mensaje.value,
+                        _subject: `Soy ${Nombre.value} y me interesa el curso: ${Curso.value}`,
+                        _autoresponse: 'Mensaje enviado desde el sitio web.',
+                        // _cc: 'mail@gmail.com'
+                    })
+                })
+                .then(response => {
+                    Swal.close();
+                    Swal.fire({
+                        title: "Mensaje enviado!",
+                        icon: "success"
+                    });
+                    CleanData();
+                })
+                .catch(error => {
+                    Swal.close();
+                    console.error('Error:', error);
+                    Swal.fire({
+                        title: "Mensaje no se ha podido enviar!",
+                        icon: "error"
+                    });
+                });
+            }
+            else{
+                Swal.fire({
+                    title: "Completa todos los campos solicitados!",
+                    icon: "error"
+                });
+            }
+
+        }
+
+        function CleanError(IdComponent){
+            let Component = document.getElementById(IdComponent);
+            Component.classList.remove('error')
+        }
+
+        function CleanData(){
+            document.getElementById('name').value = '';
+            document.getElementById('ocupation').value = '';
+            document.getElementById('phone').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('course').value = '';
+            document.getElementById('message').value = '';
+        }
+    </script>
+    <!-- End Script -->
+</body>
+
+</html>
