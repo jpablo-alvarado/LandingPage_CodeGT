@@ -74,6 +74,7 @@ body, ul, li, p, a, label, input, div {
 .text-light { color: white !important;}
 .bg-dark { background-color: #212934 !important;}
 .bg-light { background-color: #efefef !important;}
+.bg-grey { background-color: #F3F3F3 !important;}
 .bg-white { background-color: white !important;}
 .bg-black { background-color: #1B1B1B !important;}
 .bg-warning {  background-color: #FF4E4E !important;}
@@ -590,6 +591,12 @@ body, ul, li, p, a, label, input, div {
 .error {
     border: 2px solid red !important;
 }
+.show{
+  display: block;
+}
+.hidenn{
+  display: none;
+}
 
 
 @media (min-width: 576px) {
@@ -680,7 +687,7 @@ body, ul, li, p, a, label, input, div {
     align-items: center;
   }
   .bg-carousel-testimonios{
-    height: 1300px;
+    height: 700px;
   }
 }
 @media (max-width: 360px) {
