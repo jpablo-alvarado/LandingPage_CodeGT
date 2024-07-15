@@ -55,3 +55,28 @@ $(document).ready(function() {
     // End roduct detail
 
 });
+
+// Obtener el botón
+var mybutton = document.getElementById("scrollToTopBtn");
+
+// Mostrar el botón cuando el usuario se desplaza hacia abajo 20px desde la parte superior de la página
+window.onscroll = function() {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+// Cuando el usuario hace clic en el botón, desplázate hacia arriba de la página
+mybutton.onclick = function() {
+    scrollToTop();
+};
+
+function scrollToTop() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
