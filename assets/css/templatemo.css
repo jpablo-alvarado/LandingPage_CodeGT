@@ -449,6 +449,9 @@ body, ul, li, p, a, label, input, div {
 
 .card-cursos{
   background-color: #F3F3F3 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .card-cursos:hover{
   background: linear-gradient(to right, rgb(5, 101, 180), #15334B);
